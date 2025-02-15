@@ -23,7 +23,7 @@ public class PeopleService {
     public static void showNamesOfPeople() throws Exception {
         IssPeopleInSpace peopleInSpace = getIssPeopleInSpace();
 
-        System.out.println("People in space:");
+        System.out.println("People in space are:");
         for (IssPeopleDetails astronaut : peopleInSpace.getPeople()){
             System.out.println(astronaut.getName());
         }
